@@ -5,4 +5,4 @@ WORKDIR /app
 RUN npm install
 
 EXPOSE  3000
-ENTRYPOINT ["nodejs", "./index.js"]
+CMD node index.js
